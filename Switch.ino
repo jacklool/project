@@ -1,8 +1,9 @@
+//micro Swith 
 #define LEVER_SWITCH_PIN 5
 int pressSwitch = 0;
 void setup()
 {
-Serial.begin(115200);
+Serial.begin(115200); //Rate
 }
  
 void loop()
